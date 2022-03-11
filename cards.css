@@ -1,0 +1,94 @@
+.cards {
+	text-align: center;
+	padding: 16px 2px;
+	margin: auto 2px;
+	justify-content: center;
+	}
+	
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 4px;
+	grid-gap: 0;
+}
+.cards img {
+	width: 80%;
+}
+#france {
+
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#france:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#lille {
+
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#lille:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#strasbourg {
+
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#strasbourg:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);	
+}
+#paris {
+
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#paris:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+  }
+  h3 {
+  	font-size: 15px;
+  	color: black;
+  	text-decoration: none;
+  }
+  p {
+  	font-size: 12px;
+  	color: black;
+  }
+
+
+@media (min-width: 576px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+
+@media (min-width: 768px) { 
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+
+@media (min-width: 992px) { 
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	} 
+
+@media (min-width: 1200px) { 
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	} 
