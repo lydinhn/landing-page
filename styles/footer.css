@@ -1,0 +1,29 @@
+.list-inline {
+	padding: 0;
+	list-style: none;
+
+}
+.list-inline li {
+display: inline;
+margin: 0 16px;
+font-size: 15px;
+
+}
+.contact-text {
+	color: black;
+}
+.contact-text 
+{
+  text-decoration: none;
+  background: linear-gradient(to top, #C7BAA7 0%, #C7BAA7 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+
+.contact-text:hover {
+  background-size: 100% 100%;
+}
+
+.footer {
+  justify-content: center;
+  text-align: center;
+}
